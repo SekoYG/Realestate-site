@@ -1,0 +1,149 @@
+body{
+    width: 100%;
+    margin: 0px;
+    padding:0px;
+}
+.top-img{
+    position: absolute;
+    width: 100%;
+    z-index: 0;
+    
+}
+.top-img{
+    filter: brightness(70%);
+}
+.nav-top-menu{
+    width: 100%;
+    position: absolute;
+    
+    
+}
+.logo{
+    position: absolute;
+    padding: 10px;
+}
+.nav-top-list{
+    position: relative;
+    list-style: none;
+    z-index: 1; 
+    float: right;
+    
+    
+}
+.nav-top-list li{
+ display: inline-block;
+    margin: 20px;
+    color: white;
+    
+    
+}
+.nav-top-list li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 5px 10px;
+    border: 0.5px solid white;
+    border-radius: 20px;
+    
+}
+.middle{
+    position: absolute;
+    width: 50%;
+    left: 25%;
+    top: 30%;
+    align-content: center;
+    opacity: 1;
+    border: 2px solid white;
+    border-radius: 20px;
+    height: 25%;
+    padding: 10px;
+}
+.middle h1{
+    font-family: cursive;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    
+}
+.searchbar{
+    position:absolute;
+    left: 20%;
+    top: 70%;
+    
+    padding: 10px;
+    width: 60%;
+    
+}
+.searchbar input{
+    border-radius: 20px;
+    padding: 5px;
+    width: 75%;
+    border: 2px solid white;
+}
+.searchbar button{
+    border-radius: 20px;
+    padding: 5px;
+    border: 2px solid white;
+    background-color: white;
+}
+.middle-boxes{
+    width: 100%;
+    float: left;
+    top: 90%;
+    position: absolute;
+    margin: 0px;
+    
+}
+.middle-boxes ul{
+    width: 100%;
+    margin: 0px;
+    padding: 0;
+    
+}
+
+.middle-boxes li{
+    display: inline-block;
+    width: 30%;
+    margin:1.46%;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: azure;
+    
+}
+.middle-boxes li:hover{
+    transform: scale(1.1);
+}
+.middle-boxes li p{
+    padding: 10px;
+}
+.middle-boxes img{
+    width:100%;
+    border-radius: 20px;
+}
+
+
+.bottom-footer img{
+    position: absolute;
+    top: 190%;
+    width: 100%;
+    z-index: 0;
+}
+.gallery-box button{
+    position: absolute;
+    width: 95%;
+    background-color: white;
+    top: 200%;
+    left: 2%;
+    border: 2px solid black;
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+    font-size: 25px;
+    z-index: 1;
+    font-family: fantasy;
+}
+.gallery-box button:hover{
+  
+    color: red;
+}
